@@ -1,0 +1,72 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-btn {
+    font-size: 18px;
+    outline: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #fff;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+/* 3 */
+.btn-3 {
+    background: linear-gradient(#00acee, #027efb);
+    box-shadow: 4px 4px 11px 2px grey;
+    border: 3px solid #1fd1f9;
+}
+
+.btn-3:hover {
+    background: #fff;
+    color: #1fd1f9;
+    transform: scale(1.1);
+}
+
+/* 7 */
+.btn-7 {
+    background: linear-gradient(0deg, #ff9700, #fb4b02);
+    box-shadow: 4px 4px 11px 2px grey;
+    border: 3px solid #ff9700;
+
+}
+
+.btn-7:hover {
+    background: #fff;
+    color: #ff9700;
+    transform: scale(1.1);
+}
+
+/* 9 */
+.btn-9 {
+    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    box-shadow: 4px 4px 11px 2px grey;
+    border: 3px solid #b621fe;
+}
+
+
+.btn-9:hover {
+    background: #fff;
+    color: #b621fe;
+    transform: scale(1.1);
+}
+
+
+/* 10 */
+.btn-10 {
+    background: linear-gradient(0deg, #1609f0, #316ef4);
+    box-shadow: 4px 4px 11px 2px grey;
+    border: 3px solid #1609f0;
+}
+
+.btn-10:hover {
+    background: #fff;
+    color: #1609f0;
+    transform: scale(1.1);
+}
